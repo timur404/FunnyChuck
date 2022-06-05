@@ -11,7 +11,7 @@ api.chucknorris.io did it for us
 (2)And we have info button in the bottom right side of screen, clicking on it will display contacts of developer me:)
 
 
-<img alt="Screenshot" src="Screenshot1.png" width="500"/>
-<img alt="Screenshot" src="Screenshot2.png" width="500"/>
+<img alt="Screenshot" src="Screenshot1.png" width="300"/>
+<img alt="Screenshot" src="Screenshot2.png" width="300"/>
 
 [APK](build/app/outputs/flutter-apk/app-release.apk)
