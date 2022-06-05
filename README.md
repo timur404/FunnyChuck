@@ -10,5 +10,8 @@ api.chucknorris.io did it for us
 (1)We have main page where we can see jokes and change them by clicking NiceButton or swipe it for left or right
 (2)And we have info button in the bottom right side of screen, clicking on it will display contacts of developer me:)
 
-![Screenshot](Screenshot1.png)
-![Screenshot](Screenshot2.png)
+
+<img alt="Screenshot" src="Screenshot1.png" width="500"/>
+<img alt="Screenshot" src="Screenshot2.png" width="500"/>
+
+[APK](build/app/outputs/flutter-apk/app-release.apk)
