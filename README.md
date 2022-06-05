@@ -13,4 +13,4 @@ api.chucknorris.io did it for us
 
 <img alt="Screenshot" src="Screenshot1.png" width="300"/> <img alt="Screenshot" src="Screenshot2.png" width="300"/>
 
-[APK](build/app/outputs/flutter-apk/app-release.apk)
+[APK link](build/app/outputs/flutter-apk/app-release.apk)
