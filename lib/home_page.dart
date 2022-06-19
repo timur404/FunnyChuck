@@ -99,32 +99,39 @@ class HomePageState extends State<HomePage> {
                                   return const CircularProgressIndicator();
                                 },
                               )),
-                          IconButton(
-                              icon: const Icon(Icons.thumb_up_alt_rounded),
-                              iconSize: 30.0,
-                              onPressed: () => favoriteAdd()),
-                          Container(
-                            decoration: BoxDecoration(
-                              gradient: const LinearGradient(
-                                begin: Alignment.topRight,
-                                end: Alignment.bottomLeft,
-                                colors: [
-                                  Colors.blue,
-                                  Colors.red,
-                                ],
-                              ),
-                              borderRadius: BorderRadius.circular(30.0),
-                            ),
-                            child: FloatingActionButton.extended(
-                              backgroundColor: Colors.transparent,
-                              elevation: 10,
-                              onPressed: getNewJoke,
-                              label: const Text("Nice, next",
-                                  style: TextStyle(
-                                      fontSize: 20,
-                                      decorationColor: Colors.black)),
-                            ),
-                          )
+                          Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: <Widget>[
+                                Container(
+                                  decoration: BoxDecoration(
+                                    gradient: const LinearGradient(
+                                      begin: Alignment.topRight,
+                                      end: Alignment.bottomLeft,
+                                      colors: [
+                                        Colors.blue,
+                                        Colors.red,
+                                      ],
+                                    ),
+                                    borderRadius: BorderRadius.circular(30.0),
+                                  ),
+                                  child: FloatingActionButton.extended(
+                                    backgroundColor: Colors.transparent,
+                                    elevation: 10,
+                                    onPressed: getNewJoke,
+                                    label: const Text("Nice, next",
+                                        style: TextStyle(
+                                            fontSize: 20,
+                                            decorationColor: Colors.black)),
+                                  ),
+                                ),
+                                Padding(
+                                    padding: const EdgeInsets.all(10),
+                                    child: IconButton(
+                                        icon: const Icon(
+                                            Icons.thumb_up_alt_rounded),
+                                        iconSize: 30.0,
+                                        onPressed: () => favoriteAdd())),
+                              ])
                         ]))),
           ),
         ),
