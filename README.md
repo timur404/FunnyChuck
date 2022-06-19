@@ -15,6 +15,6 @@ api.chucknorris.io did it for us
 <img alt="Screenshot" src="Screenshot1.png" width="200"/> <img alt="Screenshot" src="Screenshot2.png" width="200"/> <img alt="Screenshot" src="Screenshot3.png" width="200"/>
 
 ### New Icom for iOS app
-
+<img alt="Screenshot" src="icon.png" width="100"/>
 
 [APK link](https://drive.google.com/file/d/1Po8Q1QIFtidAgsHybFS4-n1DVX-Xj26w/view?usp=sharing)
